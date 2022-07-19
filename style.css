@@ -1,0 +1,276 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+nav {
+    height: 54px;
+    background-color: #FFFFFF;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #DBDBDB;
+    z-index: 1;
+}
+.soon {
+  margin-left: 140px;
+  display: flex;
+  flex-direction: row;
+}
+.line {
+    width: 1px;
+    height: 22px;
+    background-color: #DBDBDB;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+input {
+    width: 215px;
+    height: 28px;
+}
+.actions {
+    margin-right: 150px;
+}
+.container {
+    background-color: #FAFAFA;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.stories {
+    background-color: #FFFFFF;
+    width: 614px;
+    height: 118px;
+    margin-bottom: 24px;
+    margin-top: 88px;
+    border: 1px solid #DBDBDB;
+    display: flex;
+    overflow: hidden;
+}
+.stories > div {
+    background-image: url("./images/stories_background 1.svg");
+    background-size: cover;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 23px;
+}
+.storyFriend {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.friend {
+    width: 56px;
+    height: 56px;
+    margin-left:4px;
+    margin-top: 15px;
+    border-radius: 50px;
+}
+.person {
+    font-weight: 400;
+    font-size: 12px;
+}
+.stories > ion-icon {
+    width: 26px;
+    height: 26px;
+    margin-top: 46px;
+    margin-left: 580px;
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 2;
+    font-size: 30px;
+}
+.post {
+    background-color: #FFFFFF;
+    width: 614px;
+    height: 810px;
+    border: 1px solid #DBDBDB;
+    margin-bottom: 60px;
+}
+.name {
+    width: 614px;
+    height: 61px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.identification {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.threePoints {
+    margin-right: 18.5px;
+}
+h1 {
+    color: #262626;
+    font-weight: 500;
+    font-size: 14px;
+}
+.imagePost {
+    margin-left: 17px;
+    margin-right: 15px;
+    width: 32px;
+    height: 32px;
+    border-radius: 40px;
+}
+.imageFeed {
+    width: 612px;
+    height: 612px;
+}
+video {
+    width: 612px;
+    height: 612px;
+}
+.comments {
+    display: flex;
+    flex-direction: row;
+    margin-left: 17px;
+    margin-top: 7px;
+}
+.nameComment {
+    color: #262626;
+    font-weight: 500;
+    font-size: 14px;
+}
+.textComment {
+    color: #262626;
+    font-size: 14px;
+    margin-left: 5px;
+}
+.likeComment {
+    margin-left: 470px;
+}
+.post input {
+    border: none;
+    margin-left: 17px;
+    background-color: transparent;
+}
+.post button {
+    border: none;
+    color: #139EF2;
+    background-color: transparent;
+    margin-left: 320px;
+}
+.options {
+    margin-top: 13.44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.iconsPartOne {
+    margin-left: 5.44px;
+}
+.iconsPartTwo {
+    margin-right: 17.62px;
+}
+.likes {
+    margin-top: 13.44px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 17px;
+}
+.imageLike {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border-radius: 40px;
+}
+.sidebar {
+    width: 300px;
+    height: 443px;
+    margin-top: 57px;
+    margin-left: 30px;
+    margin-top: 111px;
+}
+.profile {
+    display: flex;
+    flex-direction: row;
+}
+.nameProfile {
+    margin-left: 17px;
+    margin-top: 11px;
+}
+.imageProfile{
+    width: 56px;
+    height: 56px;
+    border-radius: 50px;
+}
+.suggestions {
+    margin-top: 24px;
+}
+.suggestionsForYou {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 17px;
+}
+h3 {
+    color: #262626;
+    font-size: 14px;
+    font-weight: 500;
+}
+h4 {
+    color: #8E8E8E;
+    font-size: 14px;
+    font-weight: 500;
+}
+h5 {
+    color: #8E8E8E;
+    font-size: 12px;
+}
+h6 {
+    color: #262626;
+    font-size: 12px;
+}
+.suggestion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.suggestionNameAndImage {
+    display: flex;
+    flex-direction: row;
+}
+.imageSuggestion {
+    width: 32px;
+    height: 32px;
+    border-radius: 40px;
+}
+.nameSuggestion {
+    margin-left: 11px;
+}
+h7 {
+    margin-top: 6px;
+    color: #8E8E8E;
+    font-size: 12px;
+}
+.follow {
+    color: #139EF2;
+    font-size: 12px;
+}
+.additional {
+    margin-top: 33px;
+    color: #C7C7C7;
+    font-size: 11px;
+}
+.year {
+    margin-top: 18px;
+    color: #C7C7C7;
+    font-size: 11px;
+}
+ion-icon {
+    margin-left: 10px;
+}
